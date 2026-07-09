@@ -27,6 +27,13 @@ const projects = [
     tags: ['OCaml'],
     link: '',
   },
+  {
+    title: 'Music on the Mental',
+    description:
+      'A data science tutorial exploring the relationship between music habits and mental health: statistical hypothesis testing (chi-squared, ANOVA) on a Kaggle survey dataset, followed by a Decision Tree Classifier that recommends genres from a listener’s mental health profile. Built with two teammates.',
+    tags: ['Python', 'pandas', 'scikit-learn'],
+    link: 'https://github.com/eyalarkin/cmsc320-final',
+  },
 ]
 
 function Projects() {
