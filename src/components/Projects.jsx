@@ -40,10 +40,23 @@ const projects = [
   },
 ]
 
+const coursework = [
+  'Machine Learning',
+  'Artificial Intelligence',
+  'Data Science',
+  'Data Structures & Algorithms',
+  'Web Development',
+  'Computer Systems',
+  'Object-Oriented Programming',
+  'Data Visualization',
+  'Linear Algebra',
+  'Applied Probability & Statistics',
+]
+
 function Projects() {
   return (
     <section id="projects" className="projects">
-      <h2>Projects</h2>
+      <h2>Projects &amp; Coursework</h2>
       <div className="project-grid">
         {projects.map((project) => (
           <div key={project.title} className="project-card">
@@ -72,6 +85,16 @@ function Projects() {
             )}
           </div>
         ))}
+      </div>
+      <div className="coursework">
+        <h3>Relevant Coursework</h3>
+        <ul className="coursework-list">
+          {coursework.map((course) => (
+            <li key={course} className="coursework-tag">
+              {course}
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   )
