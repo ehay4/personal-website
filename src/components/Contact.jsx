@@ -1,7 +1,7 @@
 const links = [
   { label: 'Email', href: 'mailto:eshay06@gmail.com' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/erichay06' },
-  { label: 'GitHub', href: 'https://github.com/' },
+  { label: 'GitHub', href: 'https://github.com/ehay4' },
   { label: 'Resume', href: '/Eric-Hay-Resume.pdf' },
 ]
 
