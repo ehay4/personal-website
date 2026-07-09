@@ -2,7 +2,7 @@ function About() {
   return (
     <section id="about" className="about">
       <h2>About</h2>
-      <p>
+      <p className="prose">
         I'm recently graduated from the University of Maryland with dual degrees in
         Computer Science and Finance with latin honors. I've spent my internships
         building production software &mdash; most recently at Barclays, where I

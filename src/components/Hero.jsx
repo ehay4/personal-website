@@ -4,7 +4,6 @@ function Hero() {
       <div className="headshot">
         <span>Add photo</span>
       </div>
-      <p className="hero-eyebrow">Hi, I'm</p>
       <h1>Eric Hay</h1>
       <p className="hero-tagline">
         Software Engineer &mdash; Computer Science &amp; Finance, University of Maryland

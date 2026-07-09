@@ -1,7 +1,6 @@
 const skills = [
   'Python',
-  'C++',
-  'OCaml',
+  
   'Java',
   'TypeScript',
   'JavaScript',
@@ -9,6 +8,7 @@ const skills = [
   'React.js',
   'Node.js',
   'Express.js',
+  'OCaml',
   'MongoDB',
   'NumPy',
   'pandas',

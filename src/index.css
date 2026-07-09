@@ -1,15 +1,15 @@
 :root {
-  --text: #b8b8bc;
-  --text-h: #ffffff;
-  --bg: #0a0a0a;
-  --bg-raised: #141414;
-  --border: #2a2a2a;
-  --accent: #e11d2e;
-  --accent-bg: rgba(225, 29, 46, 0.12);
+  --text: #55555a;
+  --text-h: #111111;
+  --bg: #ffffff;
+  --bg-raised: #f5f4f2;
+  --border: #e2e0dc;
+  --accent: #c81e2e;
+  --accent-bg: rgba(200, 30, 46, 0.08);
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   font: 18px/1.55 var(--sans);
-  color-scheme: dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
