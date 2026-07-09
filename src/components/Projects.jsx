@@ -13,12 +13,11 @@ const projects = [
       'A full-stack web app for tracking NFL prospects: searches players via the TheSportsDB API and stores them with scouting notes in MongoDB, served through Express with server-rendered views. Built with two teammates.',
     tags: ['Node.js', 'Express', 'MongoDB'],
     repo: 'https://github.com/eglickman/Football-Watchlist',
-    demo: 'https://football-watchlist.onrender.com/',
   },
   {
-    title: 'Neural Network & Softmax Classifier from Scratch',
+    title: 'Neural Network & Softmax Classifier',
     description:
-      'A from-scratch neural network and softmax classifier (no PyTorch/TensorFlow) trained on MNIST, with custom forward/backward propagation, mini-batch SGD, and PCA-based dimensionality reduction.',
+      'A neural network and softmax classifier built with NumPy (no PyTorch/TensorFlow), implementing forward/backward propagation, mini-batch SGD, and PCA-based dimensionality reduction, trained on MNIST.',
     tags: ['Python', 'NumPy'],
     repo: '',
     demo: '',
