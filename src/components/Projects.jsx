@@ -38,6 +38,14 @@ const projects = [
     repo: 'https://github.com/eyalarkin/cmsc320-final',
     demo: '',
   },
+  {
+    title: 'Parallel 3D Printing G-Code Segmenter',
+    description:
+      'A tool that segments G-code into independent zones so multiple print heads can print a single object in parallel, with a boundary-optimization algorithm that balances extrusion load across zones and a GUI for configuring print heads, gantry offsets, and custom layer changes. Built during a software engineering internship at Modix 3D, achieving up to a 35% reduction in print times for large-scale prints.',
+    tags: ['Python', 'GUI', '3D Printing'],
+    repo: 'https://github.com/3eory/Parallel_Printing_GCode',
+    demo: '',
+  },
 ]
 
 const coursework = [
