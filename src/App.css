@@ -228,39 +228,20 @@ section {
   font-size: 14px;
 }
 
-.course-list {
+.coursework-list {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.course-block {
-  scroll-margin-top: 24px;
-}
-
-.course-block h4 {
-  font-size: 17px;
-  color: var(--text-h);
-  margin: 0 0 4px;
-}
-
-.course-code {
-  font-size: 13px;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 0 0 10px;
-}
-
-.course-block ul {
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
   margin: 0;
-  padding-left: 20px;
-  max-width: 760px;
 }
 
-.course-block li {
-  margin-bottom: 6px;
-  font-size: 15px;
+.coursework-tag {
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
 }
 
 .skill-list {
