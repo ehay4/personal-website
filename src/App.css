@@ -173,6 +173,13 @@ section {
   color: var(--accent);
 }
 
+.project-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
 .skill-list {
   list-style: none;
   display: flex;
