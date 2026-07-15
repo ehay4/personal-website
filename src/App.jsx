@@ -9,6 +9,16 @@ import './App.css'
 function App() {
   return (
     <div className="page">
+      <header className="topbar">
+        <a className="topbar-name" href="#top">
+          Eric Hay
+        </a>
+        <nav className="topbar-nav">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
       <main>
         <Hero />
         <About />
@@ -19,6 +29,7 @@ function App() {
       </main>
       <footer>
         <p>&copy; {new Date().getFullYear()} Eric Hay</p>
+        <p>React + Vite</p>
       </footer>
     </div>
   )

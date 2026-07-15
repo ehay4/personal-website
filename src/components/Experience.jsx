@@ -26,23 +26,27 @@ const jobs = [
 function Experience() {
   return (
     <section id="experience" className="experience">
-      <h2>Experience</h2>
+      <div className="section-head">
+        <h2>Experience</h2>
+        <span className="section-meta">{jobs.length} positions</span>
+      </div>
       <div className="job-list">
         {jobs.map((job) => (
-          <div key={job.company} className="job">
-            <div className="job-header">
-              <h3>
-                {job.role} · {job.company}
-              </h3>
-              <span className="job-meta">{job.dates}</span>
+          <article key={job.company} className="job">
+            <div className="job-when">
+              <span className="job-dates">{job.dates}</span>
+              <span className="job-location">{job.location}</span>
             </div>
-            <p className="job-location">{job.location}</p>
-            <ul>
-              {job.bullets.map((bullet) => (
-                <li key={bullet}>{bullet}</li>
-              ))}
-            </ul>
-          </div>
+            <div className="job-body">
+              <h3>{job.company}</h3>
+              <p className="job-role">{job.role}</p>
+              <ul>
+                {job.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+            </div>
+          </article>
         ))}
       </div>
     </section>

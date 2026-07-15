@@ -1,9 +1,12 @@
 function About() {
   return (
     <section id="about" className="about">
-      <h2>About</h2>
+      <div className="section-head">
+        <h2>About</h2>
+        <span className="section-meta">B.S. CS &times; B.S. Finance</span>
+      </div>
       <p className="prose">
-        I'm recently graduated from the University of Maryland with dual degrees in
+        I recently graduated from the University of Maryland with dual degrees in
         Computer Science and Finance with latin honors. I've spent my internships
         building production software &mdash; most recently at Barclays, where I
         built React/TypeScript UIs backed by Spring Boot and AWS, and before

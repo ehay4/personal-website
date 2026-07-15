@@ -1,6 +1,5 @@
 const skills = [
   'Python',
-  
   'Java',
   'TypeScript',
   'JavaScript',
@@ -21,7 +20,10 @@ const skills = [
 function Skills() {
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
+      <div className="section-head">
+        <h2>Skills</h2>
+        <span className="section-meta">{skills.length} entries</span>
+      </div>
       <ul className="skill-list">
         {skills.map((skill) => (
           <li key={skill} className="skill-tag">

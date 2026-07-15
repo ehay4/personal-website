@@ -71,7 +71,12 @@ const coursework = [
 function Projects() {
   return (
     <section id="projects" className="projects">
-      <h2>Projects &amp; Relevant Coursework</h2>
+      <div className="section-head">
+        <h2>Projects &amp; Relevant Coursework</h2>
+        <span className="section-meta">
+          {projects.length} projects · {coursework.length} courses
+        </span>
+      </div>
 
       <div className="section-overview">
         <div>
@@ -96,19 +101,20 @@ function Projects() {
         </div>
       </div>
 
-      <h3 className="subsection-title">Projects</h3>
-      <div className="project-grid">
+      <div className="project-list">
         {projects.map((project) => (
-          <div key={project.slug} id={project.slug} className="project-card">
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <div className="project-tags">
-              {project.tags.map((tag) => (
-                <span key={tag} className="project-tag">
-                  {tag}
-                </span>
-              ))}
+          <article key={project.slug} id={project.slug} className="project-row">
+            <div className="project-head">
+              <h3>{project.title}</h3>
+              <div className="project-tags">
+                {project.tags.map((tag) => (
+                  <span key={tag} className="project-tag">
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
+            <p>{project.description}</p>
             {(project.repo || project.demo) && (
               <div className="project-links">
                 {project.repo && (
@@ -118,12 +124,12 @@ function Projects() {
                 )}
                 {project.demo && (
                   <a href={project.demo} target="_blank" rel="noreferrer">
-                    Live Demo
+                    Live demo
                   </a>
                 )}
               </div>
             )}
-          </div>
+          </article>
         ))}
       </div>
     </section>
